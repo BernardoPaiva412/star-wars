@@ -1,0 +1,49 @@
+### CREATE
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+    "title": "Sneaks: De Pisante Novo",
+    "originalTitle": "Sneaks",
+    "releaseDate": "05/06/2025",
+    "duration": "01:99:00"
+    
+}
+
+### FIND ALL
+GET http://localhost:3000/movies
+
+### FIND MOVIE BY ID (PARAMS
+GET http://localhost:3000/movies/704f
+
+
+### FIND MOVIE BY ID (QUERY)
+GET http://localhost:3000/movies?id=704f
+
+
+### FIND MOVIE BY SLUG (QUERY)
+GET http://localhost:3000/movies?slug=tom-e-jerry-uma-aventura-no-museu
+
+### UPDATE (FULL)
+PUT http://localhost:3000/movies/704f
+Content-Type: application/json
+
+{
+    "title": "Sneaks: De Pisante Novo",
+    "originalTitle": "Sneaks",
+    "releaseDate": "05/06/2025",
+    "duration": "01:32:00",
+    "genres": ["Animação"]
+    
+}
+
+### UPDATE (PARTIAL)
+PATCH http://localhost:3000/movies/704f
+Content-Type: application/json
+
+{
+    "score": 4.50
+}
+
+### DELETE
+DELETE http://localhost:3000/movies/704f

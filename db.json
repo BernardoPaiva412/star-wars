@@ -1,0 +1,108 @@
+{
+	"movies": [
+		{
+			"id": "1",
+			"title": "Star Wars: Episódio I — A Ameaça Fantasma",
+			"slug": "ameaça-fantasma",
+			"originalTitle": "Star Wars: Episode I — The Phantom Menace",
+			"releaseDate": "24/06/1999",
+			"synopsis": "Obi-Wan e seu mentor embarcam em uma perigosa aventura na tentativa de salvar o planeta das garras de Darth Sidious. Durante a viagem, eles conhecem um habilidoso menino e decidem treiná-lo para se tornar um Jedi. Mas o tempo irá revelar que as coisas nem sempre são o que aparentam ser.",
+			"cast": [
+				"Liam Neeson",
+				"Ewan McGregor",
+				"Jake Lloyd",
+				"Natalie Portman",
+				"Ian McDiarmid",
+				"Ray Park"
+			],
+			"directors": [
+				"George Lucas"
+			],
+			"genres": [
+				"Ação",
+				"Comédia",
+				"Ficção científica",
+				"Aventura",
+				"Fantasia"
+			],
+			"contentRating": [],
+			"duration": "02:16",
+			"cover": "https://static.wikia.nocookie.net/dublagem/images/2/27/Star_Wars_-_Epis%C3%B3dio_I_-_A_Amea%C3%A7a_Fantasma.png/revision/latest/scale-to-width-down/1200?cb=20220901195820&path-prefix=pt-br",
+			"trailer": "https://www.youtube.com/watch?v=-JdrAxMHzyA",
+			"gallery": [
+				"https://www.planocritico.com/wp-content/uploads/2024/05/star-wars-episodio-1-plano-critico.jpg",
+				"https://cricriticos.com/wp-content/uploads/2024/04/star-wars-episodio-1-a-ameaca-fantasma-filmes-cricriticos.jpg?w=1280&h=720&crop=1",
+				"https://s2-oglobo.glbimg.com/EXM0vJ0EZYTbwYVbmdRdxhQwcPQ=/0x0:2968x1376/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/y/J/5BAgidSwCzj0S1P3D06g/40343045-14041999-cromo-divulgacao-sc-filme-star-wars-episodio-1-a-ameaca-fantasma.-fi.jpg",
+				"https://ovicio.com.br/wp-content/uploads/2024/05/20240520-image-22-730x365.png"
+			]
+		},
+		{
+			"id": "2",
+			"title": "Deu Preguiça",
+			"slug": "deu-preguica",
+			"originalTitle": "The Sloth Lane",
+			"releaseDate": "24/04/2025",
+			"synopsis": "Após uma tempestade destruir seu lar, uma família de preguiças liderada por Gabriella (Heloísa Périssé) é forçada a se mudar para a agitada cidade grande, levando consigo seu food truck e um antigo livro de receitas. Deixando para trás a vida tranquila e guiados pela energia da jovem Laura (Tontom), eles embarcam nessa aventura com uma missão: mostrar que, nesta família, o prato principal é a diversão! Mas quando a ambiciosa empresária Dotti coloca os olhos nas preciosas receitas da família, eles terão que se unir para proteger suas tradições e tudo aquilo que acreditam.",
+			"cast": [
+				"Leslie Jones (Dotti Pace)",
+				"Remy Hii (Platy)",
+				"Olivia Vásquez (Gabriella)",
+				"Teo Vergara (Laura)",
+				"Dan Brumm (Chief Furbank)",
+				"Ben Gorroño (Luis)",
+				"Facundo Hache Herrera (Mani)",
+				"Matteo Romaniuk (Arlo)",
+				"Thalia Colettis (Additional Voices)",
+				"Benjamin Gorroño (Luis)",
+				"Andrew Cook (Coach Jerry)"
+			],
+			"directors": [
+				"Ricard Cussó",
+				"Tania Vincent"
+			],
+			"genres": [
+				"Família",
+				"Aventura",
+				"Animação"
+			],
+			"contentRating": "Violência fantasiosa",
+			"duration": "01:29:00",
+			"platforms": [
+				{
+					"name": "Apple iTunes",
+					"url": "https://itunes.apple.com/br/movie/deu-pregui%C3%A7a/id1806228120"
+				},
+				{
+					"name": "Net Now",
+					"url": "https://www.clarotvmais.com.br/filme/deu-preguica/3271192"
+				},
+				{
+					"name": "Prime Video",
+					"url": "https://www.primevideo.com/-/pt/detail/0TN2TEN4QUVPQ01BANJQ12H088/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B0F385L2JN&qid=1746647540439"
+				},
+				{
+					"name": "Vivo",
+					"url": "https://www.vivotv.com.br/details/movie/deu-preguica-40201422"
+				},
+				{
+					"name": "Youtube Filmes",
+					"url": "https://www.youtube.com/watch?v=_AtR5cpIpok"
+				}
+			],
+			"cover": "https://midias.imagemfilmes.com.br/capas/a21efa2b-e426-48aa-9486-ed86647b4302_m.jpg",
+			"trailer": "http://www.youtube.com/embed/t9394RyT6qo",
+			"gallery": [
+				"https://midias.imagemfilmes.com.br/fotos/b3e789cb-2c92-49f8-b4aa-a87d676633f5_thumb.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/ff9403bd-9944-403f-824d-6e1cd6e060f5_thumb.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/c79b4125-28d2-42d9-bf65-ce789bc7e319_thumb.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/c9c1701a-5fd1-4b0e-bad8-dc749b61b47e_thumb.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/b4de951b-c3b0-4a7e-a378-43b9ec0cf51e_thumb.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/dc5fa9a2-7fb0-433e-8bf6-74f4701fe160_thumb.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/2aabaf69-873c-4635-807a-21366579a670_thumb.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/b366e739-b12d-403a-8080-63ea1ec79daa_thumb.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/97c44951-c03a-4b56-af80-0d7598e06963_thumb.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/8bfbdd1c-a4be-40c4-bb44-96cdb08df3cb_thumb.jpg"
+			]
+		}
+	]
+}

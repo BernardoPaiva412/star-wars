@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-orbitron: "Orbitron", system-ui;
+  --font-exo2: "Exo 2", system-ui;
+  --color-space-black: #000000;
+  --color-title-yellow: #FFE81F;
+  --color-rebel-white: #F5F5F5;
+  --color-lightsaber-blue: #2E67F8;
+  --color-sith-red: #D01416;
+}

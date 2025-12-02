@@ -1,0 +1,13 @@
+{
+	"scripts": {
+		"backend": "json-server --watch db.json --port 3000",
+		"frontend": "http-server ./src --port 8080 -o",
+		"tailwind": "npx @tailwindcss/cli -i ./src/css/tailwind.css -o ./src/css/style.css --watch"
+	},
+	"dependencies": {
+		"@tailwindcss/cli": "^4.1.17",
+		"http-server": "^14.1.1",
+		"json-server": "^1.0.0-beta.3",
+		"tailwindcss": "^4.1.17"
+	}
+}

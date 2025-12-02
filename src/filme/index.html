@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Movies | Detalhes do Filme</title>
+    <link rel="shortcut icon" href="/assets/icons/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1>CRUD Movies | Detalhes do Filme</h1>
+
+    <ul>
+        <li><a href="/">Início</a></li>
+    </ul>
+
+    <hr>
+
+    <h2>Detalhes do Filme</h2>
+
+    <div id="movie-container">
+        <template id="movie-template">
+            <img src="" alt="" width="300" style="float: left; padding-right: 10px;" class="movie-cover">
+
+            <h3 class="movie-title"></h3>
+            <p class="movie-original-title"></p>
+
+            <p><b>Sinopse:</b></p>
+            <p class="movie-synopsis"></p>
+
+            <p><b>Elenco:</b></p>
+            <p class="movie-cast"></p>
+
+            <!-- elenco, direcao, genero, inadequacao, duracao -->
+            <p><b>Direção:</b></p>
+            <p class="movie-directors"></p>
+
+            <p><b>Genero:</b></p>
+            <p class="movie-genres"></p>
+
+            <p><b>Inadequação:</b></p>
+            <p class="movie-content-rating"></p>
+
+            <p><b>Duração:</b></p>
+            <p class="movie-duration"></p>
+
+            <hr>
+
+            <iframe class="movie-trailer" width="640" height="390" src="" frameborder="0"></iframe>
+
+            <hr>
+
+            <p>Imagens do Filme</p>
+            <div class="movie-gallery"></div>
+        </template>
+    </div>
+
+    <script src="/js/movie-details.js" type="module"></script>
+</body>
+
+</html>
