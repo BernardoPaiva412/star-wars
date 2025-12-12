@@ -21,11 +21,11 @@
     --font-weight-bold: 700;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --color-space-black: #000000;
-    --color-title-yellow: #FFE81F;
-    --color-rebel-white: #F5F5F5;
-    --color-lightsaber-blue: #2E67F8;
-    --color-sith-red: #D01416;
+    --font-exo2: "Exo 2", system-ui;
+    --color-gunmetal-dark: #1C1E21;
+    --color-beskar-silver: #A8A9AD;
+    --color-leather-brown: #4E342E;
+    --color-muted-olive: #4B5320;
   }
 }
 @layer base {
@@ -215,14 +215,14 @@
   .rounded {
     border-radius: 0.25rem;
   }
-  .bg-lightsaber-blue {
-    background-color: var(--color-lightsaber-blue);
+  .bg-gunmetal-dark {
+    background-color: var(--color-gunmetal-dark);
   }
-  .bg-sith-red {
-    background-color: var(--color-sith-red);
+  .bg-leather-brown {
+    background-color: var(--color-leather-brown);
   }
-  .bg-space-black {
-    background-color: var(--color-space-black);
+  .bg-muted-olive {
+    background-color: var(--color-muted-olive);
   }
   .object-cover {
     object-fit: cover;
@@ -235,6 +235,9 @@
   }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
+  }
+  .font-exo2 {
+    font-family: var(--font-exo2);
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -260,11 +263,8 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
-  .text-rebel-white {
-    color: var(--color-rebel-white);
-  }
-  .text-title-yellow {
-    color: var(--color-title-yellow);
+  .text-beskar-silver {
+    color: var(--color-beskar-silver);
   }
   .not-italic {
     font-style: normal;

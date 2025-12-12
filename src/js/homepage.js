@@ -13,7 +13,7 @@ movies.forEach((movie) => {
     clone.querySelector(".movie-release-date").textContent = movie.releaseDate
     clone.querySelector(".movie-cover").src = movie.cover
     clone.querySelector(".movie-cover").alt = movie.title
-    clone.querySelector(".movie-link").href = `/filme/?slug=${movie.slug}`
+    clone.querySelector(".movie-link").href = `filme/?slug=${movie.slug}`
 
     document.querySelector("#movies-container").appendChild(clone)
 })

@@ -3,17 +3,18 @@
 		{
 			"id": "1",
 			"title": "Star Wars: Episódio I — A Ameaça Fantasma",
-			"slug": "ameaça-fantasma",
+			"surname": "A Ameaça Fantasma",
+			"slug": "ameaca-fantasma",
 			"originalTitle": "Star Wars: Episode I — The Phantom Menace",
 			"releaseDate": "24/06/1999",
 			"synopsis": "Obi-Wan e seu mentor embarcam em uma perigosa aventura na tentativa de salvar o planeta das garras de Darth Sidious. Durante a viagem, eles conhecem um habilidoso menino e decidem treiná-lo para se tornar um Jedi. Mas o tempo irá revelar que as coisas nem sempre são o que aparentam ser.",
 			"cast": [
-				"Liam Neeson",
-				"Ewan McGregor",
-				"Jake Lloyd",
-				"Natalie Portman",
-				"Ian McDiarmid",
-				"Ray Park"
+				"Liam Neeson (Qui-Gon Jinn)",
+				"Ewan McGregor (Obi-Wan Kenobi)",
+				"Jake Lloyd (Anakin Skywalker)",
+				"Natalie Portman (Padmé Amidala)",
+				"Ian McDiarmid (Sheev Palpatine)",
+				"Ray Park (Darth Maul)"
 			],
 			"directors": [
 				"George Lucas"
@@ -29,7 +30,7 @@
 				"Nenhuma"
 			],
 			"duration": "02:16",
-			"cover": "https://static.wikia.nocookie.net/dublagem/images/2/27/Star_Wars_-_Epis%C3%B3dio_I_-_A_Amea%C3%A7a_Fantasma.png/revision/latest/scale-to-width-down/1200?cb=20220901195820&path-prefix=pt-br",
+			"cover": "assets/covers/ameaca-fantasma.webp",
 			"gallery": [
 				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_The_Phantom_Menace_052.jpg?bwg=1569839543",
 				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_The_Phantom_Menace_030.jpg?bwg=1569839543",
@@ -40,22 +41,17 @@
 		{
 			"id": "2",
 			"title": "Star Wars: Episódio II — O Ataque dos Clones",
-			"slug": "ataque-dos-clones",
+			"surname": "O Ataque dos Clones",
+			"slug": "ataque-clones",
 			"originalTitle": "Star Wars: Episode II — Attack of the Clones",
 			"releaseDate": "15/08/2002",
 			"synopsis": "Dez anos após o primeiro encontro, Anakin Skywalker vive um romance proibido com Padmé, enquanto Obi-Wan investiga uma tentativa de assassinato do senador e descobre um exército secreto de clones criado para tentar destruir os Jedi.",
 			"cast": [
-				"Leslie Jones (Dotti Pace)",
-				"Remy Hii (Platy)",
-				"Olivia Vásquez (Gabriella)",
-				"Teo Vergara (Laura)",
-				"Dan Brumm (Chief Furbank)",
-				"Ben Gorroño (Luis)",
-				"Facundo Hache Herrera (Mani)",
-				"Matteo Romaniuk (Arlo)",
-				"Thalia Colettis (Additional Voices)",
-				"Benjamin Gorroño (Luis)",
-				"Andrew Cook (Coach Jerry)"
+				"Hayden Christensen (Anakin Skywalker)",
+				"Ewan McGregor (Obi-Wan Kenobi)",
+				"Natalie Portman (Padmé Amidala)",
+				"Christopher Lee (Conde Dookan)",
+				"Ian McDiarmid (Sheev Palpatine)"
 			],
 			"directors": [
 				"George Lucas"
@@ -67,36 +63,31 @@
 			],
 			"contentRating": "Nenhuma",
 			"duration": "01:22",
-			"cover": "https://static.wikia.nocookie.net/dublagem/images/2/23/Star_Wars_-_Epis%C3%B3dio_II_-_Ataque_dos_Clones.png/revision/latest?cb=20220901200113&path-prefix=pt-br",
+			"cover": "assets/covers/ataque-clones.webp",
 			"gallery": [
 				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Attack_of_the_Clones_060.jpg?bwg=1569839628",
-
-"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Attack_of_the_Clones_020.jpg?bwg=1569839628",
-
-"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Attack_of_the_Clones_055.jpg?bwg=1569839628",
-
-"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Attack_of_the_Clones_057.jpg?bwg=1569839628"
+				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Attack_of_the_Clones_020.jpg?bwg=1569839628",
+				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Attack_of_the_Clones_055.jpg?bwg=1569839628",
+				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Attack_of_the_Clones_057.jpg?bwg=1569839628"
 			]
 		},
 		{
 			"id": "3",
 			"title": "Star Wars: A Guerra dos Clones",
-			"slug": "guerra-dos-clones",
+			"surname": "A Guerra dos Clones",
+			"slug": "guerra-clones",
 			"originalTitle": "Star Wars: The Clone Wars",
 			"releaseDate": "15/08/2008",
 			"synopsis": "Os cavaleiros Jedi continuam lutando para manter a ordem diante da Guerra dos Clones. Sistemas inteiros são eliminados, enquanto Yoda e Obi-Wan Kenobi lideram um exército contra a força do Lado Sombrio.",
 			"cast": [
-				"Leslie Jones (Dotti Pace)",
-				"Remy Hii (Platy)",
-				"Olivia Vásquez (Gabriella)",
-				"Teo Vergara (Laura)",
-				"Dan Brumm (Chief Furbank)",
-				"Ben Gorroño (Luis)",
-				"Facundo Hache Herrera (Mani)",
-				"Matteo Romaniuk (Arlo)",
-				"Thalia Colettis (Additional Voices)",
-				"Benjamin Gorroño (Luis)",
-				"Andrew Cook (Coach Jerry)"
+				"Tom Kenny (Nute Gunray)",
+				"Matt Lander (Anakin Skywalker)",
+				"Ashley Drane (Ahsoka Tano)",
+				"Tom Kane (Mestre Yoda)",
+				"James Arnold Taylor (Obi-Wan Kenobi)",
+				"Dee Bradley Baker (Capitão Rex)",
+				"Nika Futterman (Asajj Ventress)",
+				"Christopher Lee (Conde Dookan)"
 			],
 			"directors": [
 				"Dave Filoni"
@@ -108,7 +99,7 @@
 			],
 			"contentRating": "Nenhuma",
 			"duration": "01:38",
-			"cover": "https://static.wikia.nocookie.net/dublagem/images/9/90/GDC.jpg/revision/latest?cb=20250624070943&path-prefix=pt-br",
+			"cover": "assets/covers/guerra-clones.webp",
 			"gallery": [
 				"https://i.ytimg.com/vi/30bSB80b0yo/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD8yLqKw6NhB1kQqlt4T2LIoEMShg",
 				"https://t.ctcdn.com.br/jjlfKNIyQsmvxjJG1fG9iYd24wg=/768x432/smart/i333724.jpeg",
@@ -118,22 +109,18 @@
 		{
 			"id": "4",
 			"title": "Star Wars: Episódio III — A Vingança dos Sith",
-			"slug": "vingaça-dos-sith",
+			"surname": "A Vingança dos Sith",
+			"slug": "vinganca-sith",
 			"originalTitle": "Star Wars: Episode III — Revenge of the Sith",
 			"releaseDate": "19/05/2005",
 			"synopsis": "As Guerras Clônicas estão em pleno andamento e Anakin Skywalker mantém um elo de lealdade com Palpatine, ao mesmo tempo em que luta para que seu casamento com Padmé Amidala não seja afetado por esta situação. Seduzido por promessas de poder, Anakin se aproxima cada vez mais de Darth Sidious até se tornar o temível Darth Vader. Juntos eles tramam um plano para aniquilar de uma vez por todas com os cavaleiros jedi.",
 			"cast": [
-				"Leslie Jones (Dotti Pace)",
-				"Remy Hii (Platy)",
-				"Olivia Vásquez (Gabriella)",
-				"Teo Vergara (Laura)",
-				"Dan Brumm (Chief Furbank)",
-				"Ben Gorroño (Luis)",
-				"Facundo Hache Herrera (Mani)",
-				"Matteo Romaniuk (Arlo)",
-				"Thalia Colettis (Additional Voices)",
-				"Benjamin Gorroño (Luis)",
-				"Andrew Cook (Coach Jerry)"
+				"Christopher Lee (Conde Dookan)",
+				"Hayden Christensen (Anakin Skywalker)",
+				"Ewan McGregor (Obi-Wan Kenobi)",
+				"Ian McDiarmid (Sheev Palpatine)",
+				"Natalie Portman (Padmé Amidala)",
+				"Samuel L. Jackson (Mace Windu)"
 			],
 			"directors": [
 				"George Lucas"
@@ -148,7 +135,7 @@
 				"Temas Sensíveis"
 			],
 			"duration": "02:20",
-			"cover": "https://midias.imagemfilmes.com.br/capas/a21efa2b-e426-48aa-9486-ed86647b4302_m.jpg",
+			"cover": "assets/covers/vinganca-sith.webp",
 			"gallery": [
 				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Revenge_of_the_Sith_003.jpg?bwg=1569839693",
 				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Revenge_of_the_Sith_010.jpg?bwg=1569839693",
@@ -159,22 +146,20 @@
 		{
 			"id": "5",
 			"title": "Solo: Uma História Star Wars",
+			"surname": "Solo",
 			"slug": "solo",
 			"originalTitle": "Solo: A Star Wars Story",
-			"releaseDate": "24/05/2005",
+			"releaseDate": "24/05/2018",
 			"synopsis": "Em dificuldade financeira, o piloto Han Solo e sua namorada Qi'ra buscam trabalho. Eles colocam as mãos em uma substância valiosa, mas perigosa, e que acaba levando à perseguição do Império e à separação entre os dois. Preocupado, Han usa toda a sua esperteza para se infiltrar em um plano arriscado, mas que pode render a oportunidade de voltar à terra natal e reencontrar a sua amada. No caminho, o piloto encontra parceiros importantes, como Chewbacca e Lando Calrissian.",
 			"cast": [
-				"Leslie Jones (Dotti Pace)",
-				"Remy Hii (Platy)",
-				"Olivia Vásquez (Gabriella)",
-				"Teo Vergara (Laura)",
-				"Dan Brumm (Chief Furbank)",
-				"Ben Gorroño (Luis)",
-				"Facundo Hache Herrera (Mani)",
-				"Matteo Romaniuk (Arlo)",
-				"Thalia Colettis (Additional Voices)",
-				"Benjamin Gorroño (Luis)",
-				"Andrew Cook (Coach Jerry)"
+				"Alden Ehrenreich (Han Solo)",
+				"Emilia Clarke (Lady Qi'ra)",
+				"Donald Glover (Lando Calrissian)",
+				"Woody Harrelson (Tobias Beckett)",
+				"Paul Bettany (Dryden Vos)",
+				"Joonas Suotamo (Chewbacca Wookiee)",
+				"Erin Kellyman (Enfys Nest)",
+				"Sam Witwer (Darth Maul)"
 			],
 			"directors": [
 				"Ron Howard"
@@ -190,7 +175,7 @@
 				"Linguagem Imprópria"
 			],
 			"duration": "02:15",
-			"cover": "https://midias.imagemfilmes.com.br/capas/a21efa2b-e426-48aa-9486-ed86647b4302_m.jpg",
+			"cover": "assets/covers/solo.jpg",
 			"gallery": [
 				"hhttps://film-grab.com/wp-content/uploads/photo-gallery/solo055.jpg?bwg=1551288793",
 				"https://film-grab.com/wp-content/uploads/photo-gallery/solo002.jpg?bwg=1551288794",
@@ -201,22 +186,20 @@
 		{
 			"id": "6",
 			"title": "Rogue One: Uma História Star Wars",
+			"surname": "Rogue One",
 			"slug": "rogue-one",
 			"originalTitle": "Rogue One: A Star Wars Story",
 			"releaseDate": "15/12/2016",
 			"synopsis": "A Aliança Rebelde recruta Jyn Erso para sua causa depois de saber que o Império está construindo uma arma poderosa chamada Estrela da Morte. Ela une forças com o capitão Cassian Andor e outros combatentes da resistência para roubar os planos da arma.",
 			"cast": [
-				"Leslie Jones (Dotti Pace)",
-				"Remy Hii (Platy)",
-				"Olivia Vásquez (Gabriella)",
-				"Teo Vergara (Laura)",
-				"Dan Brumm (Chief Furbank)",
-				"Ben Gorroño (Luis)",
-				"Facundo Hache Herrera (Mani)",
-				"Matteo Romaniuk (Arlo)",
-				"Thalia Colettis (Additional Voices)",
-				"Benjamin Gorroño (Luis)",
-				"Andrew Cook (Coach Jerry)"
+				"Felicity Jones (Jyn Erso)",
+				"Diego Luna (Cassian Andor)",
+				"Bem Mendelsohn (Orson Krennic)",
+				"Donnie Yen (Chirrut Îmwe)",
+				"Alan Tudyk (Droide K-2SO)",
+				"James Earl Jones (Anakin Skywalker)",
+				"Jiang Wen (Baze Malbus)",
+				"Guy Henry (Wilhuff Tarkin)"
 			],
 			"directors": [
 				"Ron Howard"
@@ -232,7 +215,7 @@
 				"Cenas assustadores"
 			],
 			"duration": "02:13",
-			"cover": "https://midias.imagemfilmes.com.br/capas/a21efa2b-e426-48aa-9486-ed86647b4302_m.jpg",
+			"cover": "assets/covers/rogue-one.jpg",
 			"gallery": [
 				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Rogue_One_065.jpg?bwg=1569602410",
 				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Rogue_One_025.jpg?bwg=1569602410",
@@ -243,22 +226,18 @@
 		{
 			"id": "7",
 			"title": "Star Wars: Episódio IV — Uma Nova Esperança",
-			"slug": "uma-nova-esperança",
+			"surname": "Uma Nova Esperança",
+			"slug": "nova-esperança",
 			"originalTitle": "Star Wars: Episode IV — A New Hope",
-			"releaseDate": "18/11/1997",
+			"releaseDate": "18/11/1977",
 			"synopsis": "A princesa Leia é mantida refém pelas forças imperiais comandadas por Darth Vader. Luke Skywalker e o capitão Han Solo precisam libertá-la e restaurar a liberdade e a justiça na galáxia.",
 			"cast": [
-				"Leslie Jones (Dotti Pace)",
-				"Remy Hii (Platy)",
-				"Olivia Vásquez (Gabriella)",
-				"Teo Vergara (Laura)",
-				"Dan Brumm (Chief Furbank)",
-				"Ben Gorroño (Luis)",
-				"Facundo Hache Herrera (Mani)",
-				"Matteo Romaniuk (Arlo)",
-				"Thalia Colettis (Additional Voices)",
-				"Benjamin Gorroño (Luis)",
-				"Andrew Cook (Coach Jerry)"
+				"Mark Hamill (Luke Skywalker)",
+				"Harrison Ford (Han Solo)",
+				"Carrie Fisher (Leia Organa)",
+				"Alec Guinness (Obi-Wan Kenobi)",
+				"David Prowse (Anakin Skywalker)",
+				"Peter Cushing (Wilhuff Tarkin)"
 			],
 			"directors": [
 				"George Lucas"
@@ -273,7 +252,7 @@
 				"Temas Adultos"
 			],
 			"duration": "02:01",
-			"cover": "https://midias.imagemfilmes.com.br/capas/a21efa2b-e426-48aa-9486-ed86647b4302_m.jpg",
+			"cover": "assets/covers/nova-esperanca.webp",
 			"gallery": [
 				"https://play-lh.googleusercontent.com/proxy/cUAjPVJwQhMnagGUuZUpTauv4D3Qj7kMe5TLl4mbWyOaF9YzBYmqqbL-e8J3Xj6YU2NJhQJghCNXWLPSzR-GkWpbYQA4Hy6WiIAprIYkbZWBpA=s3840-w3840-h2160",
 				"https://sociedadejedi.com.br/wp-content/uploads/2017/01/Cronologia-Filme-Uma-Nova-Esperanc%CC%A7a-Foto-02.jpg",
@@ -284,22 +263,17 @@
 		{
 			"id": "8",
 			"title": "Star Wars: Episódio V — O Império Contra-Ataca",
-			"slug": "o-imperio-contra-ataca",
+			"surname": "O Império Contra-Ataca",
+			"slug": "imperio-ca",
 			"originalTitle": "Star Wars: Episode V — The Empire Strikes Back",
 			"releaseDate": "21/07/1980",
 			"synopsis": "Yoda treina Luke Skywalker para ser um cavaleiro Jedi. Han Solo corteja a Princesa Leia enquanto Darth Vader retorna para combater as forças rebeldes que tentam salvar a galáxia.",
 			"cast": [
-				"Leslie Jones (Dotti Pace)",
-				"Remy Hii (Platy)",
-				"Olivia Vásquez (Gabriella)",
-				"Teo Vergara (Laura)",
-				"Dan Brumm (Chief Furbank)",
-				"Ben Gorroño (Luis)",
-				"Facundo Hache Herrera (Mani)",
-				"Matteo Romaniuk (Arlo)",
-				"Thalia Colettis (Additional Voices)",
-				"Benjamin Gorroño (Luis)",
-				"Andrew Cook (Coach Jerry)"
+				"Mark Hamill (Luke Skywalker)",
+				"Harrison Ford (Han Solo)",
+				"Carrie Fisher (Leia Organa)",
+				"David Prowse (Anakin Skywalker)",
+				"Clive Revill (Sheev Palpatine)"
 			],
 			"directors": [
 				"Irvin Kershner"
@@ -313,7 +287,7 @@
 				"Nenhuma"
 			],
 			"duration": "02:04",
-			"cover": "https://midias.imagemfilmes.com.br/capas/a21efa2b-e426-48aa-9486-ed86647b4302_m.jpg",
+			"cover": "assets/covers/imperio-ca.webp",
 			"gallery": [
 				"https://film-grab.com/wp-content/uploads/photo-gallery/20%20(1066).jpg?bwg=1547464092",
 				"https://film-grab.com/wp-content/uploads/photo-gallery/26%20(1066).jpg?bwg=1547464093",
@@ -324,22 +298,17 @@
 		{
 			"id": "9",
 			"title": "Star Wars: Episódio VI — O Retorno de Jedi",
-			"slug": "o-retorno-de-jedi",
+			"surname": "O Retorno de Jedi",
+			"slug": "retorno-jedi",
 			"originalTitle": "Star Wars: Episode VI — Return of the Jedi",
 			"releaseDate": "06/10/1983",
 			"synopsis": "Yoda treina Luke Skywalker para ser um cavaleiro Jedi. Han Solo corteja a Princesa Leia enquanto Darth Vader retorna para combater as forças rebeldes que tentam salvar a galáxia.",
 			"cast": [
-				"Leslie Jones (Dotti Pace)",
-				"Remy Hii (Platy)",
-				"Olivia Vásquez (Gabriella)",
-				"Teo Vergara (Laura)",
-				"Dan Brumm (Chief Furbank)",
-				"Ben Gorroño (Luis)",
-				"Facundo Hache Herrera (Mani)",
-				"Matteo Romaniuk (Arlo)",
-				"Thalia Colettis (Additional Voices)",
-				"Benjamin Gorroño (Luis)",
-				"Andrew Cook (Coach Jerry)"
+				"Carrie Fisher (Leia Organa)",
+				"Mark Hamill (Luke Skywalker)",
+				"Harrison Ford (Han Solo)",
+				"Ian McDiarmid (Sheev Palpatine)",
+				"James Earl Jones (Anakin Skywalker)"
 			],
 			"directors": [
 				"Richard Marquand"
@@ -353,7 +322,7 @@
 				"Nenhuma"
 			],
 			"duration": "02:14",
-			"cover": "https://midias.imagemfilmes.com.br/capas/a21efa2b-e426-48aa-9486-ed86647b4302_m.jpg",
+			"cover": "assets/covers/retorno-jedi.jpg",
 			"gallery": [
 				"https://film-grab.com/wp-content/uploads/photo-gallery/62%20(711).jpg?bwg=1547381751",
 				"https://film-grab.com/wp-content/uploads/photo-gallery/17%20(870).jpg?bwg=1547381751",
@@ -361,27 +330,23 @@
 				"https://film-grab.com/wp-content/uploads/photo-gallery/07%20(851).jpg?bwg=1547381752"
 			]
 		},
-		
-		
 		{
 			"id": "10",
 			"title": "Star Wars: Episódio VII — O Despertar da Força",
-			"slug": "despertar-da-força",
+			"surname": "O Despertar da Força",
+			"slug": "despertar-forca",
 			"originalTitle": "Star Wars: Episode VII — RThe Force Awakens",
 			"releaseDate": "17/12/2015",
 			"synopsis": "A queda de Darth Vader e do Império levou ao surgimento de uma nova força sombria: a Primeira Ordem. Eles procuram o jedi Luke Skywalker, desaparecido. A resistência tenta desesperadamente encontrá-lo antes para salvar a galáxia.",
 			"cast": [
-				"Leslie Jones (Dotti Pace)",
-				"Remy Hii (Platy)",
-				"Olivia Vásquez (Gabriella)",
-				"Teo Vergara (Laura)",
-				"Dan Brumm (Chief Furbank)",
-				"Ben Gorroño (Luis)",
-				"Facundo Hache Herrera (Mani)",
-				"Matteo Romaniuk (Arlo)",
-				"Thalia Colettis (Additional Voices)",
-				"Benjamin Gorroño (Luis)",
-				"Andrew Cook (Coach Jerry)"
+				"Daisy Ridley (Rey Skywalker)",
+				"John Boyega (Finn 2187)",
+				"Harrison Ford (Han Solo)",
+				"Oscar Isaac (Poe Dameron)",
+				"Adam Driver (Ben Solo)",
+				"Carrie Fisher (Leia Organa)",
+				"Domhnall Gleeson (Armitage Hux)",
+				"Andy Serkis (Líder Snoke)"
 			],
 			"directors": [
 				"J.J. Abrams"
@@ -395,7 +360,7 @@
 				"Nenhuma"
 			],
 			"duration": "02:14",
-			"cover": "https://midias.imagemfilmes.com.br/capas/a21efa2b-e426-48aa-9486-ed86647b4302_m.jpg",
+			"cover": "assets/covers/despertar-forca.webp",
 			"gallery": [
 				"https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/forceawakens01.jpg?bwg=1547036686",
 				"https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/forceawakens57.jpg?bwg=1547036685",
@@ -403,34 +368,66 @@
 				"https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/forceawakens61.jpg?bwg=1547036685"
 			]
 		},
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		{
 			"id": "11",
+			"title": "Star Wars: Episódio XIII — Os Últimos Jedi",
+			"surname": "Os Últimos Jedi",
+			"slug": "ultimos-jedi",
+			"originalTitle": "Star Wars: Episode VIII — The Last Jedi",
+			"releaseDate": "14/12/2017",
+			"synopsis": "A tranquila e solitária vida de Luke Skywalker sofre uma reviravolta quando ele conhece Rey, uma jovem que mostra fortes sinais da Força. O desejo dela de aprender o estilo dos Jedi força Luke a tomar uma decisão que mudará sua vida para sempre. Enquanto isso, Kylo Ren e o General Hux lideram a Primeira Ordem para um ataque total contra Leia e a Resistência pela supremacia da galáxia.",
+			"cast": [
+				"Mark Hamill (Luke Skywalker)",
+				"Daisy Ridley (Rey Skywalker)",
+				"John Boyega (Finn 2187)",
+				"Adam Driver (Ben Solo)",
+				"Carrie Fisher (Leia Organa)",
+				"Oscar Isaac (Poe Dameron)",
+				"Domhnall Gleeson (Armitage Hux)",
+				"Andy Serkis (Líder Snoke)"
+			],
+			"directors": [
+				"Rian Johnson"
+			],
+			"genres": [
+				"Família",
+				"Aventura",
+				"Animação"
+			],
+			"contentRating": [
+				"Violência Fantasiosa",
+				"Linguagem Imprópria"
+			],
+			"duration": "02:32",
+			"cover": "assets/covers/ultimos-jedi.webp",
+			"gallery": [
+				"https://uploads.jovemnerd.com.br/wp-content/uploads/2019/04/ascensao-skywalker-intriga-internacional.jpg",
+				"https://s2.glbimg.com/p8VO1lctxQ3eIHKFvD7hOrv8JJI=/e.glbimg.com/og/ed/f/original/2019/05/22/wars1.jpg",
+				"https://uploads.jovemnerd.com.br/wp-content/uploads/2020/04/star-wars-a-ascensao-skywalker-trouxe-o-verdadeiro-luke-de-volta-diz-daisy-ridley.jpg",
+				"https://s2.glbimg.com/eIz76kKDAju59Vcg2kav2TlA51k=/e.glbimg.com/og/ed/f/original/2019/05/22/star-wars-feature-vf-2019-summer-embed-07.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/b4de951b-c3b0-4a7e-a378-43b9ec0cf51e_thumb.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/dc5fa9a2-7fb0-433e-8bf6-74f4701fe160_thumb.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/2aabaf69-873c-4635-807a-21366579a670_thumb.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/b366e739-b12d-403a-8080-63ea1ec79daa_thumb.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/97c44951-c03a-4b56-af80-0d7598e06963_thumb.jpg",
+				"https://midias.imagemfilmes.com.br/fotos/8bfbdd1c-a4be-40c4-bb44-96cdb08df3cb_thumb.jpg"
+			]
+		},
+		{
+			"id": "12",
 			"title": "Star Wars: Episódio IX — A Ascensão Skywalker",
-			"slug": "asençao-skywalker",
+			"surname": "A Ascensão Skywalker",
+			"slug": "ascencao-skywalker",
 			"originalTitle": "Star Wars: Episode IX — The Rise of Skywalker",
 			"releaseDate": "19/12/2019",
 			"synopsis": "Com o retorno do Imperador Palpatine, a Resistência toma a frente da batalha. Treinando para ser uma completa Jedi, Rey se encontra em conflito com passado e futuro, e teme pelas respostas que pode conseguir com Kylo Ren.",
 			"cast": [
-				"Leslie Jones (Dotti Pace)",
-				"Remy Hii (Platy)",
-				"Olivia Vásquez (Gabriella)",
-				"Teo Vergara (Laura)",
-				"Dan Brumm (Chief Furbank)",
-				"Ben Gorroño (Luis)",
-				"Facundo Hache Herrera (Mani)",
-				"Matteo Romaniuk (Arlo)",
-				"Thalia Colettis (Additional Voices)",
-				"Benjamin Gorroño (Luis)",
-				"Andrew Cook (Coach Jerry)"
+				"Daisy Ridley (Rey Skywalker)",
+				"John Boyega (Finn 2187)",
+				"Adam Driver (Ben Solo)",
+				"Oscar Isaac (Poe Dameron)",
+				"Ian McDiarmid (Sheev Palpatine)",
+				"Hayden Christensen (Anakin Skywalker)"
 			],
 			"directors": [
 				"J.J. Abrams"
@@ -445,7 +442,7 @@
 				"Linguagem Imprópria"
 			],
 			"duration": "02:22",
-			"cover": "https://midias.imagemfilmes.com.br/capas/a21efa2b-e426-48aa-9486-ed86647b4302_m.jpg",
+			"cover": "assets/covers/ascencao-skywalker.webp",
 			"gallery": [
 				"https://uploads.jovemnerd.com.br/wp-content/uploads/2019/04/ascensao-skywalker-intriga-internacional.jpg",
 				"https://s2.glbimg.com/p8VO1lctxQ3eIHKFvD7hOrv8JJI=/e.glbimg.com/og/ed/f/original/2019/05/22/wars1.jpg",
