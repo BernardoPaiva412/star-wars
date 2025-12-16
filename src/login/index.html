@@ -1,3 +1,88 @@
-<h1>login</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-script type="module" src="/js/login.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Boba | Login</title>
+    <link rel="icon" href="/assets/icons/fav.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+</head>
+
+<body
+    class="bg-gunmetal-dark text-beskar-silver font-exo2 min-h-screen flex flex-col items-center justify-center relative overflow-hidden">
+
+    <!-- Background Decorativo (Opcional - Efeito de grade sutil) -->
+    <div class="absolute inset-0 z-0 opacity-10 pointer-events-none"
+        style="background-image: radial-gradient(#A8A9AD 1px, transparent 1px); background-size: 40px 40px;">
+    </div>
+
+    <!-- Botão Voltar (Canto Superior Esquerdo) -->
+    <a href="/index.html"
+        class="absolute top-8 left-8 text-rust font-orbitron hover:text-title-yellow transition-colors flex items-center gap-2 z-20">
+        <i class="ph-fill ph-arrow-left"></i> Voltar à Galáxia
+    </a>
+
+    <!-- Card de Login -->
+    <div
+        class="w-full max-w-md bg-leather-brown border border-beskar-silver/20 rounded-xl shadow-2xl p-8 z-10 relative">
+
+        <!-- Cabeçalho do Card -->
+        <div class="text-center mb-8">
+            <img src="/assets/icons/home.png" alt="Logo" class="h-16 mx-auto mb-4 opacity-90">
+            <h1 class="font-orbitron text-2xl text-title-yellow tracking-widest uppercase font-bold">Acesso Restrito
+            </h1>
+            <p class="text-sm text-beskar-silver/60 mt-1">Identifique-se, caçador.</p>
+        </div>
+
+        <!-- Formulário -->
+        <form id="login-form" class="space-y-6">
+
+            <!-- Campo Email -->
+            <div class="space-y-2">
+                <label for="email" class="block font-orbitron text-sm text-rust uppercase tracking-wider">Transmissor
+                    (E-mail)</label>
+                <div class="relative">
+                    <div
+                        class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-beskar-silver/50">
+                        <i class="ph-fill ph-envelope-simple text-xl"></i>
+                    </div>
+                    <input type="email" id="email" required placeholder="nome@guilda.com"
+                        class="w-full bg-gunmetal-dark border border-beskar-silver/20 text-white text-sm rounded-lg focus:ring-title-yellow focus:border-title-yellow block w-full pl-10 p-3 placeholder-beskar-silver/30 transition-colors font-exo2">
+                </div>
+            </div>
+
+            <!-- Campo Senha -->
+            <div class="space-y-2">
+                <label for="password" class="block font-orbitron text-sm text-rust uppercase tracking-wider">Código de
+                    Acesso</label>
+                <div class="relative">
+                    <div
+                        class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-beskar-silver/50">
+                        <i class="ph-fill ph-lock-key text-xl"></i>
+                    </div>
+                    <input type="password" id="password" required placeholder="••••••••"
+                        class="w-full bg-gunmetal-dark border border-beskar-silver/20 text-white text-sm rounded-lg focus:ring-title-yellow focus:border-title-yellow block w-full pl-10 p-3 placeholder-beskar-silver/30 transition-colors font-exo2">
+                </div>
+            </div>
+
+            <!-- Botão Entrar -->
+            <button type="submit"
+                class="w-full mt-6 bg-title-yellow text-gunmetal-dark hover:bg-white font-orbitron font-bold py-3 px-4 rounded-lg shadow-lg hover:shadow-title-yellow/50 transition-all duration-300 uppercase tracking-wide transform hover:-translate-y-1">
+                Entrar no Sistema
+            </button>
+
+        </form>
+
+        <!-- Rodapé do Card -->
+        <div class="mt-6 text-center border-t border-beskar-silver/10 pt-4">
+            <p class="text-xs text-beskar-silver/40">Acesso exclusivo para membros da Guilda.</p>
+        </div>
+    </div>
+
+    <script src="/js/login.js" type="module"></script>
+</body>
+
+</html>

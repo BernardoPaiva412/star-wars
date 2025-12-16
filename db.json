@@ -26,16 +26,14 @@
 				"Aventura",
 				"Fantasia"
 			],
-			"contentRating": [
-				"Nenhuma"
-			],
+			"contentRating": "Nenhuma",
 			"duration": "02:16",
 			"cover": "assets/covers/ameaca-fantasma.webp",
 			"gallery": [
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_The_Phantom_Menace_052.jpg?bwg=1569839543",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_The_Phantom_Menace_030.jpg?bwg=1569839543",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_The_Phantom_Menace_005.jpg?bwg=1569839548",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_The_Phantom_Menace_050.jpg?bwg=1569839543"
+				"/assets/images/af1.jpg",
+				"/assets/images/af2.jpg",
+				"/assets/images/af3.jpg",
+				"/assets/images/af4.jpg"
 			]
 		},
 		{
@@ -57,18 +55,20 @@
 				"George Lucas"
 			],
 			"genres": [
-				"Família",
+				"Ação",
+				"Romance",
+				"Ficção científica",
 				"Aventura",
-				"Animação"
+				"Fantasia"
 			],
 			"contentRating": "Nenhuma",
 			"duration": "01:22",
 			"cover": "assets/covers/ataque-clones.webp",
 			"gallery": [
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Attack_of_the_Clones_060.jpg?bwg=1569839628",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Attack_of_the_Clones_020.jpg?bwg=1569839628",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Attack_of_the_Clones_055.jpg?bwg=1569839628",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Attack_of_the_Clones_057.jpg?bwg=1569839628"
+				"/assets/images/ac1.jpg",
+				"/assets/images/ac2.jpg",
+				"/assets/images/ac3.jpg",
+				"/assets/images/ac4.jpg"
 			]
 		},
 		{
@@ -93,17 +93,18 @@
 				"Dave Filoni"
 			],
 			"genres": [
-				"Família",
-				"Aventura",
-				"Animação"
+				"Animação",
+				"Ficção científica",
+				"Ação"
 			],
 			"contentRating": "Nenhuma",
 			"duration": "01:38",
 			"cover": "assets/covers/guerra-clones.webp",
 			"gallery": [
-				"https://i.ytimg.com/vi/30bSB80b0yo/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD8yLqKw6NhB1kQqlt4T2LIoEMShg",
-				"https://t.ctcdn.com.br/jjlfKNIyQsmvxjJG1fG9iYd24wg=/768x432/smart/i333724.jpeg",
-				"https://rollingstone.com.br/wp-content/uploads/2023/01/star-wars-a-guerra-dos-clones-george-lucas-foto-divulgacao.jpg"
+				"/assets/images/gc1.jpg",
+				"/assets/images/gc2.jpg",
+				"/assets/images/gc3.jpeg",
+				"/assets/images/gc4.jpg"
 			]
 		},
 		{
@@ -126,9 +127,11 @@
 				"George Lucas"
 			],
 			"genres": [
-				"Família",
+				"Ação",
+				"Ficção científica",
 				"Aventura",
-				"Animação"
+				"Fantasia",
+				"Drama"
 			],
 			"contentRating": [
 				"Violência Extrema",
@@ -137,10 +140,10 @@
 			"duration": "02:20",
 			"cover": "assets/covers/vinganca-sith.webp",
 			"gallery": [
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Revenge_of_the_Sith_003.jpg?bwg=1569839693",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Revenge_of_the_Sith_010.jpg?bwg=1569839693",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Revenge_of_the_Sith_014.jpg?bwg=1569839693",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Revenge_of_the_Sith_058.jpg?bwg=1569839689"
+				"/assets/images/vs1.jpg",
+				"/assets/images/vs2.jpg",
+				"/assets/images/vs3.jpg",
+				"/assets/images/vs4.jpg"
 			]
 		},
 		{
@@ -165,9 +168,13 @@
 				"Ron Howard"
 			],
 			"genres": [
-				"Família",
+				"Ação",
+				"Romance",
+				"Faroeste",
 				"Aventura",
-				"Animação"
+				"Ficção policial e científica",
+				"Drama",
+				"Assalto"
 			],
 			"contentRating": [
 				"Violência",
@@ -177,10 +184,10 @@
 			"duration": "02:15",
 			"cover": "assets/covers/solo.jpg",
 			"gallery": [
-				"hhttps://film-grab.com/wp-content/uploads/photo-gallery/solo055.jpg?bwg=1551288793",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/solo002.jpg?bwg=1551288794",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/solo019.jpg?bwg=1551288794",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/solo049.jpg?bwg=1551288793"
+				"/assets/images/sh1.jpg",
+				"/assets/images/sh2.jpg",
+				"/assets/images/sh3.jpg",
+				"/assets/images/sh4.jpg"
 			]
 		},
 		{
@@ -205,29 +212,30 @@
 				"Ron Howard"
 			],
 			"genres": [
-				"Família",
+				"Ação",
+				"Ficção científica",
 				"Aventura",
-				"Animação"
+				"Drama"
 			],
 			"contentRating": [
 				"Violência",
 				"Temas sensíveis",
-				"Cenas assustadores"
+				"Cenas assustadoras"
 			],
 			"duration": "02:13",
 			"cover": "assets/covers/rogue-one.jpg",
 			"gallery": [
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Rogue_One_065.jpg?bwg=1569602410",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Rogue_One_025.jpg?bwg=1569602410",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Rogue_One_061.jpg?bwg=1569602410",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/Star_Wars_Rogue_One_020.jpg?bwg=1569602410"
+				"/assets/images/ro1.jpg",
+				"/assets/images/ro2.jpg",
+				"/assets/images/ro3.jpg",
+				"/assets/images/ro4.jpg"
 			]
 		},
 		{
 			"id": "7",
 			"title": "Star Wars: Episódio IV — Uma Nova Esperança",
 			"surname": "Uma Nova Esperança",
-			"slug": "nova-esperança",
+			"slug": "nova-esperanca",
 			"originalTitle": "Star Wars: Episode IV — A New Hope",
 			"releaseDate": "18/11/1977",
 			"synopsis": "A princesa Leia é mantida refém pelas forças imperiais comandadas por Darth Vader. Luke Skywalker e o capitão Han Solo precisam libertá-la e restaurar a liberdade e a justiça na galáxia.",
@@ -243,9 +251,10 @@
 				"George Lucas"
 			],
 			"genres": [
-				"Família",
+				"Ficção científica",
+				"Ação",
 				"Aventura",
-				"Animação"
+				"Fantasia"
 			],
 			"contentRating": [
 				"Violência",
@@ -254,10 +263,10 @@
 			"duration": "02:01",
 			"cover": "assets/covers/nova-esperanca.webp",
 			"gallery": [
-				"https://play-lh.googleusercontent.com/proxy/cUAjPVJwQhMnagGUuZUpTauv4D3Qj7kMe5TLl4mbWyOaF9YzBYmqqbL-e8J3Xj6YU2NJhQJghCNXWLPSzR-GkWpbYQA4Hy6WiIAprIYkbZWBpA=s3840-w3840-h2160",
-				"https://sociedadejedi.com.br/wp-content/uploads/2017/01/Cronologia-Filme-Uma-Nova-Esperanc%CC%A7a-Foto-02.jpg",
-				"hhttps://cinemaedebate.com/wp-content/uploads/2010/10/star-wars-episodio-iv-uma-nova-esperanca.jpg",
-				"https://rollingstone.com.br/wp-content/uploads/star-wars-uma-nova-esperanca-filme-episodio-4-iv-reproducao.jpg"
+				"/assets/images/ne1.jpg",
+				"/assets/images/ne2.jpg",
+				"/assets/images/ne3.jpg",
+				"/assets/images/ne4.jpg"
 			]
 		},
 		{
@@ -279,20 +288,20 @@
 				"Irvin Kershner"
 			],
 			"genres": [
-				"Família",
+				"Ficção científica",
+				"Ação",
 				"Aventura",
-				"Animação"
+				"Fantasia",
+				"Drama"
 			],
-			"contentRating": [
-				"Nenhuma"
-			],
+			"contentRating": "Nenhuma",
 			"duration": "02:04",
 			"cover": "assets/covers/imperio-ca.webp",
 			"gallery": [
-				"https://film-grab.com/wp-content/uploads/photo-gallery/20%20(1066).jpg?bwg=1547464092",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/26%20(1066).jpg?bwg=1547464093",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/04%20(1043).jpg?bwg=1547464092",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/53%20(1007).jpg?bwg=1547464092"
+				"/assets/images/ic1.jpg",
+				"/assets/images/ic2.jpg",
+				"/assets/images/ic3.jpg",
+				"/assets/images/ic4.jpg"
 			]
 		},
 		{
@@ -314,9 +323,10 @@
 				"Richard Marquand"
 			],
 			"genres": [
-				"Família",
+				"Ação",
+				"Ficção científica",
 				"Aventura",
-				"Animação"
+				"Fantasia"
 			],
 			"contentRating": [
 				"Nenhuma"
@@ -324,10 +334,10 @@
 			"duration": "02:14",
 			"cover": "assets/covers/retorno-jedi.jpg",
 			"gallery": [
-				"https://film-grab.com/wp-content/uploads/photo-gallery/62%20(711).jpg?bwg=1547381751",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/17%20(870).jpg?bwg=1547381751",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/35%20(868).jpg?bwg=1547381751",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/07%20(851).jpg?bwg=1547381752"
+				"/assets/images/rj1.jpg",
+				"/assets/images/rj2.jpg",
+				"/assets/images/rj3.jpg",
+				"/assets/images/rj4.jpg"
 			]
 		},
 		{
@@ -352,25 +362,24 @@
 				"J.J. Abrams"
 			],
 			"genres": [
-				"Família",
+				"Ação",
+				"Ficção científica",
 				"Aventura",
-				"Animação"
+				"Fantasia"
 			],
-			"contentRating": [
-				"Nenhuma"
-			],
+			"contentRating": "Nenhuma",
 			"duration": "02:14",
 			"cover": "assets/covers/despertar-forca.webp",
 			"gallery": [
-				"https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/forceawakens01.jpg?bwg=1547036686",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/forceawakens57.jpg?bwg=1547036685",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/forceawakens65.jpg?bwg=1547036685",
-				"https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/forceawakens61.jpg?bwg=1547036685"
+				"/assets/images/df1.jpg",
+				"/assets/images/df2.jpg",
+				"/assets/images/df3.jpg",
+				"/assets/images/df4.jpg"
 			]
 		},
 		{
 			"id": "11",
-			"title": "Star Wars: Episódio XIII — Os Últimos Jedi",
+			"title": "Star Wars: Episódio VIII — Os Últimos Jedi",
 			"surname": "Os Últimos Jedi",
 			"slug": "ultimos-jedi",
 			"originalTitle": "Star Wars: Episode VIII — The Last Jedi",
@@ -390,27 +399,23 @@
 				"Rian Johnson"
 			],
 			"genres": [
-				"Família",
+				"Ação",
+				"Ficção científica",
 				"Aventura",
-				"Animação"
+				"Fantasia",
+				"Drama"
 			],
 			"contentRating": [
-				"Violência Fantasiosa",
-				"Linguagem Imprópria"
+				"Violência",
+				"Medo"
 			],
 			"duration": "02:32",
 			"cover": "assets/covers/ultimos-jedi.webp",
 			"gallery": [
-				"https://uploads.jovemnerd.com.br/wp-content/uploads/2019/04/ascensao-skywalker-intriga-internacional.jpg",
-				"https://s2.glbimg.com/p8VO1lctxQ3eIHKFvD7hOrv8JJI=/e.glbimg.com/og/ed/f/original/2019/05/22/wars1.jpg",
-				"https://uploads.jovemnerd.com.br/wp-content/uploads/2020/04/star-wars-a-ascensao-skywalker-trouxe-o-verdadeiro-luke-de-volta-diz-daisy-ridley.jpg",
-				"https://s2.glbimg.com/eIz76kKDAju59Vcg2kav2TlA51k=/e.glbimg.com/og/ed/f/original/2019/05/22/star-wars-feature-vf-2019-summer-embed-07.jpg",
-				"https://midias.imagemfilmes.com.br/fotos/b4de951b-c3b0-4a7e-a378-43b9ec0cf51e_thumb.jpg",
-				"https://midias.imagemfilmes.com.br/fotos/dc5fa9a2-7fb0-433e-8bf6-74f4701fe160_thumb.jpg",
-				"https://midias.imagemfilmes.com.br/fotos/2aabaf69-873c-4635-807a-21366579a670_thumb.jpg",
-				"https://midias.imagemfilmes.com.br/fotos/b366e739-b12d-403a-8080-63ea1ec79daa_thumb.jpg",
-				"https://midias.imagemfilmes.com.br/fotos/97c44951-c03a-4b56-af80-0d7598e06963_thumb.jpg",
-				"https://midias.imagemfilmes.com.br/fotos/8bfbdd1c-a4be-40c4-bb44-96cdb08df3cb_thumb.jpg"
+				"/assets/images/uj1.jpg",
+				"/assets/images/uj2.jpg",
+				"/assets/images/uj3.jpg",
+				"/assets/images/uj4.jpg"
 			]
 		},
 		{
@@ -433,9 +438,10 @@
 				"J.J. Abrams"
 			],
 			"genres": [
-				"Família",
+				"Ação",
+				"Fantasia e ficção científica",
 				"Aventura",
-				"Animação"
+				"Drama"
 			],
 			"contentRating": [
 				"Violência Fantasiosa",
@@ -444,16 +450,10 @@
 			"duration": "02:22",
 			"cover": "assets/covers/ascencao-skywalker.webp",
 			"gallery": [
-				"https://uploads.jovemnerd.com.br/wp-content/uploads/2019/04/ascensao-skywalker-intriga-internacional.jpg",
-				"https://s2.glbimg.com/p8VO1lctxQ3eIHKFvD7hOrv8JJI=/e.glbimg.com/og/ed/f/original/2019/05/22/wars1.jpg",
-				"https://uploads.jovemnerd.com.br/wp-content/uploads/2020/04/star-wars-a-ascensao-skywalker-trouxe-o-verdadeiro-luke-de-volta-diz-daisy-ridley.jpg",
-				"https://s2.glbimg.com/eIz76kKDAju59Vcg2kav2TlA51k=/e.glbimg.com/og/ed/f/original/2019/05/22/star-wars-feature-vf-2019-summer-embed-07.jpg",
-				"https://midias.imagemfilmes.com.br/fotos/b4de951b-c3b0-4a7e-a378-43b9ec0cf51e_thumb.jpg",
-				"https://midias.imagemfilmes.com.br/fotos/dc5fa9a2-7fb0-433e-8bf6-74f4701fe160_thumb.jpg",
-				"https://midias.imagemfilmes.com.br/fotos/2aabaf69-873c-4635-807a-21366579a670_thumb.jpg",
-				"https://midias.imagemfilmes.com.br/fotos/b366e739-b12d-403a-8080-63ea1ec79daa_thumb.jpg",
-				"https://midias.imagemfilmes.com.br/fotos/97c44951-c03a-4b56-af80-0d7598e06963_thumb.jpg",
-				"https://midias.imagemfilmes.com.br/fotos/8bfbdd1c-a4be-40c4-bb44-96cdb08df3cb_thumb.jpg"
+				"/assets/images/as1.jpg",
+				"/assets/images/as2.jpg",
+				"/assets/images/as3.jpg",
+				"/assets/images/as4.webp"
 			]
 		}
 	]

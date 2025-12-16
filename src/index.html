@@ -4,86 +4,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site do Boba</title>
+    <title>Site do Boba | Home</title>
     <link rel="icon" href="/assets/icons/fav.png">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"/>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+
+    <style>
+        /* --- Lógica do Acordeão (Accordion Effect) --- */
+        .movie-card {
+            transition: flex 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+            /* Transição mais "cinematográfica" */
+            flex: 1;
+            min-width: 280px;
+        }
+
+        /* Estado Expandido (Hover) */
+        .movie-card:hover {
+            flex: 3.5;
+            /* Expande mais para dar destaque à cena */
+            border-color: #FFE81F;
+            /* Borda amarela sutil ao focar */
+            box-shadow: 0 0 20px rgba(255, 232, 31, 0.15);
+            /* Glow sutil */
+        }
+
+        /* Controle de Camadas */
+        .movie-card:hover .poster-layer {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .movie-card:hover .info-layer {
+            opacity: 1;
+        }
+
+        /* Animação suave para o background de cena */
+        .scene-bg {
+            transition: background-image 0.5s ease-in-out;
+        }
+    </style>
 </head>
 
-<body class="bg-gunmetal-dark text-beskar-silver font-exo2">
+<body class="bg-gunmetal-dark text-beskar-silver font-exo2 flex flex-col min-h-screen">
 
-    <header class="bg-leather-brown">
-        <div class="max-w-7xl px-7 py-3">
-            <a href="index.html">
-                <img src="/assets/icons/home.png" alt="logo" class="h-13">
+    <!-- Header -->
+    <header class="bg-leather-brown shadow-lg z-50 sticky top-0">
+        <div class="max-w-7xl mx-auto px-7 py-3 flex items-center justify-between">
+            <!-- Logo (Canto Esquerdo) -->
+            <a href="index.html" class="hover:opacity-80 transition-opacity">
+                <img src="/assets/icons/home.png" alt="logo" class="h-12">
             </a>
+
+            <!-- Área da Direita: Texto Decorativo + Botão Login -->
+            <div class="flex items-center gap-6">
+                <!-- Texto Decorativo (Escondido em telas pequenas) -->
+                <div
+                    class="hidden lg:block text-beskar-silver/40 font-orbitron text-xs tracking-[0.2em] uppercase select-none">
+                    Acervo Mandaloriano
+                </div>
+
+                <!-- Botão de Login -->
+                <!-- O href aponta para a pasta 'login', carregando o index.html dela -->
+                <a href="login/index.html"
+                    class="group flex items-center gap-2 px-4 py-2 rounded-lg border border-rust/30 hover:border-title-yellow hover:bg-white/5 transition-all duration-300">
+                    <i
+                        class="ph-fill ph-user-circle text-xl text-rust group-hover:text-title-yellow transition-colors"></i>
+                    <span
+                        class="font-orbitron text-sm font-bold text-rust uppercase tracking-wide group-hover:text-title-yellow transition-colors">
+                        Login
+                    </span>
+                </a>
+            </div>
         </div>
     </header>
 
-    <div id="movies-container" class="max-w-7xl mx-auto p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <template id="movie-template">
-            <div class="movie overflow-hidden rounded shadow-lg bg-leather-brown">
-                <a href="" class="movie-link">
-                    <img src="" alt="" class="movie-cover max-h-96 w-full object-cover">
-                </a>
-                <div class="p-3">
-                    <h3 class="movie-title font-bold text-lg truncate"></h3>
-                    <p class="movie-release-date text-rebel-white"></p>
-                </div>
-            </div>
-        </template>
-    </div>
+    <!-- Conteúdo Principal -->
+    <main class="flex-grow py-8">
 
-    <footer class="">
-        <!-- Parte 1 -->
+        <!-- Título da Seção -->
+        <div class="max-w-7xl mx-auto px-4 mb-6">
+            <h1
+                class="text-3xl md:text-4xl font-orbitron text-title-yellow uppercase tracking-wider border-l-4 border-rust pl-4 font-bold">
+                Catálogo da Galáxia
+            </h1>
+            <p class="text-beskar-silver/60 mt-2 pl-5 italic">Explore a saga completa.</p>
+        </div>
+
+        <!-- Grid Flexível (Acordeão) -->
+        <div id="movies-container" class="max-w-7xl mx-auto p-3 flex flex-wrap gap-4 items-stretch">
+
+            <template id="movie-template">
+                <!-- Card Principal: Altura aumentada para 600px para impacto visual -->
+                <div
+                    class="movie-card relative h-[600px] overflow-hidden rounded-xl bg-black group cursor-pointer border border-beskar-silver/20 shadow-2xl">
+
+                    <!-- CAMADA 1: Fundo (Cenas do Filme / Carrossel) -->
+                    <div class="scene-bg absolute inset-0 bg-cover bg-center">
+                        <!-- Gradiente para garantir leitura do texto -->
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-90">
+                        </div>
+                    </div>
+
+                    <!-- CAMADA 2: Informações (Info Layer - Aparece no Hover) -->
+                    <div
+                        class="info-layer absolute inset-0 z-20 flex flex-col justify-end items-center p-8 text-center opacity-0 transition-opacity duration-500 pointer-events-none pb-20">
+                        <span class="text-rust font-orbitron text-sm tracking-[0.2em] uppercase mb-2">Lançamento</span>
+                        <p class="movie-release-date text-white font-exo2 text-xl font-bold mb-4"></p>
+
+                        <h3
+                            class="movie-title font-orbitron font-black text-3xl md:text-4xl text-title-yellow uppercase leading-none shadow-black drop-shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                        </h3>
+
+                        <div
+                            class="mt-6 px-6 py-2 border border-title-yellow/50 text-title-yellow text-sm font-orbitron uppercase rounded-full hover:bg-title-yellow hover:text-black transition-colors">
+                            Ver Detalhes
+                        </div>
+                    </div>
+
+                    <!-- CAMADA 3: Capa do Filme (Poster Layer - Visível Inicialmente) -->
+                    <a href=""
+                        class="movie-link poster-layer absolute inset-0 z-30 block transition-opacity duration-700 bg-gunmetal-dark">
+                        <img src="" alt=""
+                            class="movie-cover w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        <!-- Sombra interna no poster para profundidade -->
+                        <div class="absolute inset-0 shadow-[inset_0_0_40px_rgba(0,0,0,0.8)]"></div>
+                    </a>
+
+                </div>
+            </template>
+
+        </div>
+    </main>
+
+    <!-- Footer Unificado -->
+    <footer class="mt-auto shadow-inner shadow-black/30">
         <div class="bg-leather-brown">
-            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-3">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 p-8">
                 <div>
-                    <h3 class="font-semibold text-2xl mb-2">Redes Sociais</h3>
-                    <ul class="text-rebel-white">
-                        <li><a href="#"><i class="ph-fill ph-facebook-logo"></i> Facebook</a></li>
-                        <li><a href="#"><i class="ph-fill ph-instagram-logo"></i> Instagram</a></li>
-                        <li><a href="#"><i class="ph-fill ph-youtube-logo"></i> YouTube</a></li>
-                        <li><a href="#"><i class="ph-fill ph-twitter-logo"></i> Twitter</a></li>
-                        <li><a href="#"><i class="ph-fill ph-linkedin-logo"></i> LinkedIn</a></li>
+                    <h3 class="font-bold text-2xl mb-4 font-orbitron text-white tracking-wide">Redes Sociais</h3>
+                    <ul class="text-rust font-exo2 space-y-2 text-lg">
+                        <li><a href="#" class="hover:text-title-yellow transition flex items-center gap-2"><i
+                                    class="ph-fill ph-facebook-logo"></i> Facebook</a></li>
+                        <li><a href="#" class="hover:text-title-yellow transition flex items-center gap-2"><i
+                                    class="ph-fill ph-instagram-logo"></i> Instagram</a></li>
+                        <li><a href="#" class="hover:text-title-yellow transition flex items-center gap-2"><i
+                                    class="ph-fill ph-youtube-logo"></i> YouTube</a></li>
+                        <li><a href="#" class="hover:text-title-yellow transition flex items-center gap-2"><i
+                                    class="ph-fill ph-twitter-logo"></i> Twitter</a></li>
                     </ul>
                 </div>
-
                 <div>
-                    <h3 class="font-semibold text-2xl mb-2">Mapa do site</h3>
-                    <ul class="text-rebel-white">
-                        <li><a href="#">Filmes</a></li>
-                        <li><a href="#">Atores</a></li>
-                        <li><a href="#">Diretores</a></li>
-                        <li><a href="#">Política de Privacidade</a></li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-semibold text-2xl mb-2">Endereço</h3>
-                    <address class="text-rebel-white not-italic">
-                        Av. Ipanema, 165, Sala 1105<br>
-                        Empresarial 18 do Forte, Barueri - SP<br>
-                        06472-002
+                    <h3 class="font-bold text-2xl mb-4 font-orbitron text-white tracking-wide">QG do Caçador</h3>
+                    <address class="text-rust font-exo2 not-italic text-lg leading-relaxed">
+                        Av. Padawan, 501, Sala 1138<br>
+                        Empresarial 66 da Ordem<br>
+                        Rio de Coruscant - RC<br>
+                        11266-025
                     </address>
                 </div>
-
                 <div>
-                    <h3 class="font-semibold text-2xl mb-2">Contato</h3>
-                    <p class="text-rebel-white">(11) 4052-2500</p>
+                    <h3 class="font-bold text-2xl mb-4 font-orbitron text-white tracking-wide">Transmissão</h3>
+                    <p class="text-rust font-exo2 text-lg font-bold flex items-center gap-2">
+                        <i class="ph-fill ph-phone"></i> (21) 97912-7874
+                    </p>
                 </div>
             </div>
         </div>
-
-        <!-- Parte 2 -->
-        <div class="bg-muted-olive">
-            <div class="max-w-7xl mx-auto p-3">
-                <p class="font-light text-sm text-rebel-white">&copy; 2025 CRUD Filmes.</p>
+        <div class="bg-muted-olive border-t border-beskar-silver/10">
+            <div class="max-w-7xl mx-auto p-4 text-center">
+                <p class="font-light text-sm text-rebel-white font-exo2 opacity-80">&copy; 2025 Site do Boba. Este é o
+                    caminho.</p>
             </div>
         </div>
     </footer>
 
-    <script src="/js/homepage.js" type="module"></script>
+    <script src="js/homepage.js" type="module"></script>
 </body>
 
 </html>

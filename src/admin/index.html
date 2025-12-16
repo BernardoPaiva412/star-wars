@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Boba | Admin</title>
+    <link rel="icon" href="/assets/icons/fav.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+</head>
+
+<body class="bg-gunmetal-dark text-beskar-silver font-exo2 min-h-screen flex">
+
+    <!-- Sidebar Lateral -->
+    <aside class="w-64 bg-leather-brown border-r border-beskar-silver/10 flex flex-col">
+        <div class="p-6 flex items-center justify-center border-b border-beskar-silver/10">
+            <img src="/assets/icons/home.png" alt="Logo" class="h-10 opacity-80">
+        </div>
+
+        <nav class="flex-1 p-4 space-y-2">
+            <a href="#"
+                class="flex items-center gap-3 px-4 py-3 bg-title-yellow text-gunmetal-dark rounded font-bold font-orbitron">
+                <i class="ph-fill ph-gauge"></i> Dashboard
+            </a>
+            <a href="#"
+                class="flex items-center gap-3 px-4 py-3 text-beskar-silver hover:bg-white/5 rounded transition-colors">
+                <i class="ph-fill ph-film-strip"></i> Gerenciar Filmes
+            </a>
+            <a href="#"
+                class="flex items-center gap-3 px-4 py-3 text-beskar-silver hover:bg-white/5 rounded transition-colors">
+                <i class="ph-fill ph-users"></i> Usuários
+            </a>
+        </nav>
+
+        <div class="p-4 border-t border-beskar-silver/10">
+            <a href="/index.html" class="flex items-center gap-2 text-rust hover:text-red-500 transition-colors">
+                <i class="ph-fill ph-sign-out"></i> Sair do Sistema
+            </a>
+        </div>
+    </aside>
+
+    <!-- Conteúdo Principal -->
+    <main class="flex-1 p-8">
+        <header class="flex justify-between items-center mb-8">
+            <h1 class="text-3xl font-orbitron text-white">Painel de Controle</h1>
+            <div class="flex items-center gap-3">
+                <span class="text-sm text-beskar-silver">Olá, <strong>Boba Fett</strong></span>
+                <div class="w-10 h-10 rounded-full bg-rust flex items-center justify-center text-white font-bold">BF
+                </div>
+            </div>
+        </header>
+
+        <!-- Cards de Exemplo -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-leather-brown p-6 rounded-lg border border-beskar-silver/10 shadow-lg">
+                <div class="text-rust text-sm font-orbitron uppercase mb-2">Total de Filmes</div>
+                <div class="text-4xl font-bold text-white">12</div>
+            </div>
+            <div class="bg-leather-brown p-6 rounded-lg border border-beskar-silver/10 shadow-lg">
+                <div class="text-title-yellow text-sm font-orbitron uppercase mb-2">Visualizações</div>
+                <div class="text-4xl font-bold text-white">1.2M</div>
+            </div>
+            <div class="bg-leather-brown p-6 rounded-lg border border-beskar-silver/10 shadow-lg">
+                <div class="text-green-500 text-sm font-orbitron uppercase mb-2">Status do Sistema</div>
+                <div class="text-4xl font-bold text-white">Online</div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
